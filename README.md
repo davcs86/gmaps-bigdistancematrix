@@ -9,6 +9,12 @@ It can call the Google Maps v3 API to get the distance matrix for many locations
 
 The object can display the distance matrix on a HTML table or export it as a string in JSON format.
 
+## Links
+
+* Homepage: <http://d-castillo.info/projects/gmaps-bigdistancematrix>
+* Source: <https://github.com/davcs86/gmaps-bigdistancematrix>
+* Bugs:   <https://github.com/davcs86/gmaps-bigdistancematrix/issues>
+
 ## Requirements:
 
 1. <a href="http://jquery.com/" target="_blank">jQuery 1.8+</a><br>
