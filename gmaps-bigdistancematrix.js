@@ -1,6 +1,6 @@
 /*
-* ClassName: GMaps v3, Big Distance Matrix
-* Calculates a Google Distance Matrix with 25+ items. 
+* Class: GMaps Big Distance Matrix
+* Get Google Maps distance matrix for 25+ locations. 
 * Author: David Castillo Sanchez - davcs86@gmail.com  
 * Hire me on: https://www.freelancer.com/u/DrAKkareS.html
 */
