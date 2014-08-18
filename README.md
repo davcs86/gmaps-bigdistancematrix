@@ -1,12 +1,23 @@
 Big Distance Matrix for Google Maps
 =======================
 
-Get Google Maps Distance Matrix for 25+ locations
+Get Google Maps Distance Matrix for 25+ locations.
 
-## Donations and sponsoring
+This object can get Google Maps distance matrix for many locations.
 
-Did this project help you to save (or earn) some money?
-Please, support us by making a small donation.
+It can call the Google Maps v3 API to get the distance matrix for many locations that may go over the 25 locations limit by splitting it in smaller blocks.
+
+The object can display the distance matrix on a HTML table or export it as a string in JSON format.
+
+## Requirements:
+
+1. <a href="http://jquery.com/" target="_blank">jQuery 1.8+</a><br>
+2. <a href="http://bestiejs.github.io/json3/" target="_blank">JSON3</a>
+
+## Donations
+
+Did this project help you to save (or earn) some money?<br>
+Please, support to the author by making a small donation.
 
 <a href='https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=2PK29ZFPUZ5WL' target='_blank'><img width="150" style='border:0px;width:150px' src='http://ko-fi.com/img/button-4.png' border='0' alt='Buy Me A Coffee :) @ PayPal' /></a>
 
