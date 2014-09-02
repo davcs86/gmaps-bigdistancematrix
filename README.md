@@ -17,7 +17,7 @@ The object can display the distance matrix on a HTML table or export it as a str
 
 **Find optimal routes with the retrieved data on:**
 
-GMaps Big Route Optimizer: <https://github.com/davcs86/gmaps-bigrouteoptimizer>
+Route Optimizer for Big Distance Matrix for Google Maps: <https://github.com/davcs86/gmaps-bigrouteoptimizer>
 
 ## Requirements:
 
