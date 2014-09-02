@@ -19,6 +19,7 @@ var Route_DistanceMatrix = function(){
 	var itemsPerRequest = 5;
 	var displayTable = function(tableDomId){
 		var tableContent = $("<thead><tr><th>&nbsp;</th></tr></thead><tbody></tbody>");
+		$("<thead/>").append("<tr>").append("<th/>").after("<tbody/>");
 		if (console_div){
 			$(console_div).append("<p>Generating table...</p>");
 		}
