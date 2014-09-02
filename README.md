@@ -47,9 +47,9 @@ The object can display the distance matrix on a HTML table or export it as a str
 	```
 	| Parameter | Description |
 	| ------------- | ----------- |
-	|routePoints | Object with the GPS latitude and longitude of the places. **Mandatory**.|
-	|consoleDivId | DOM id of the container where the log information will be written. __Optional__, __Default value__: false. |
-	|itemsPerReq | Number of items to include per request to Google. __Optional__, __Default value__: 5,  __Max Value__ 25.|
+	|routePoints | Object with the GPS latitude and longitude of the places. <br>**Mandatory**.|
+	|consoleDivId | DOM id of the container where the log information will be written. <br>**Optional**. _Default value_: false. |
+	|itemsPerReq | Number of items to include per request to Google. <br>**Optional**. _Default value_: 5,  _Max Value_ 25.|
 	|$port | Listen port of the MySQL server.<br>_Optional_. It uses the value in _mysqli.default_port_ as default.|
 
 ## Support

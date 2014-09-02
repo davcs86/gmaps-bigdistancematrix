@@ -55,7 +55,7 @@ var Route_Points = {
 	** -- consoleDivId: DOM id of the container where the log information will be written. (Optional, Default value: false).
 	** -- itemsPerReq: Number of items to include per request to Google. (Optional, Default Value: 5,  Max Value 25);
 	** -- gTravelMode: Google parameter, view reference (Optional, Default: google.maps.TravelMode.DRIVING).
-	** -- gUnitSystem: Google parameter, view reference (Optional, Default: google.maps.TravelMode.METRIC).
+	** -- gUnitSystem: Google parameter, view reference (Optional, Default: google.maps.UnitSystem.METRIC).
 	** -- gAvoidHighways: Google parameter, view reference (Optional, Default: false).
 	** -- gAvoidTolls: Google parameter, view reference (Optional, Default: false).
 	**
