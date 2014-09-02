@@ -82,6 +82,21 @@ The object can display the distance matrix on a HTML table or export it as a str
 	| ------------- | ----------- |
 	|delayRequest | Miliseconds between requests. <br>**Optional**. _Default value_: 1500 ms.|
 
+5. Export the distance matrix as a JSON object.
+
+	```javascript
+	var jsonObjResults = Route_DistanceMatrix.exportResults(asString);
+	
+	//from example.js
+	var distanceMatrix = Route_DistanceMatrix.exportResults(true);
+	```
+	| Parameter | Description |
+	| ------------- | ----------- |
+	|asString | If it's true, returns the string representation of the JSON Object. <br>**Optional**. _Default value_: false.|
+
+6. Use the data as you prefer. Check out an interesting application for this data on my another project <https://github.com/davcs86/gmaps-bigrouteoptimizer> where you can find an optimal route of these points using any of three variables: Time, Distance and Speed.
+
+
 ## Support
 
 Drop me line on: <http://d-castillo.info/contactme/> or to: davcs86@gmail.com
