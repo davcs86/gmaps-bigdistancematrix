@@ -14,7 +14,7 @@ The object can display the distance matrix on a HTML table or export it as a str
 * Homepage: <http://d-castillo.info/projects/gmaps-bigdistancematrix>
 * Source: <https://github.com/davcs86/gmaps-bigdistancematrix>
 * Bugs:   <https://github.com/davcs86/gmaps-bigdistancematrix/issues>
-* DEMO: <http://d-castillo.info/gmaps-bigdistancematrix/example.html>
+* **DEMO:** <http://d-castillo.info/gmaps-bigdistancematrix/example.html>
 * Other: <http://www.jsclasses.org/package/362>
 
 ## Requirements:
