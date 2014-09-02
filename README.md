@@ -1,7 +1,7 @@
 Big Distance Matrix for Google Maps
 =======================
 
-Javascript object  for fill Google Maps Distance Matrix for 25+ locations.
+Javascript object for fill Google Maps Distance Matrix for 25+ locations.
 
 It can call the Google Maps v3 API to get the distance matrix for many locations that may go over the 25 locations limit by splitting it in smaller blocks.
 
