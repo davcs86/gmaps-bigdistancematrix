@@ -17,12 +17,31 @@ The object can display the distance matrix on a HTML table or export it as a str
 
 ## Requirements:
 
-1. <a href="http://jquery.com/" target="_blank">jQuery 1.8+</a><br>
-2. <a href="http://bestiejs.github.io/json3/" target="_blank">JSON3</a>
+1. jQuery 1.8+ <http://jquery.com/>
+2. JSON3 <http://bestiejs.github.io/json3/>
+
+## Usage:
+
+1. Define the route points in an Object. From example.js
+
+	```javascript
+	// Places in NY.
+	var Route_Points = {
+		"Times Square": [40.758673, -73.985281],
+		"St Patrick's Cathedral": [40.758196, -73.975347],
+		"Grand Central Terminal": [40.752105, -73.977686],
+		"New York Public Library": [40.752617, -73.982793], 
+		"Washington Park, NJ": [40.751890, -74.041414],
+		"Battery Park": [40.704506, -74.014206],
+		//...
+		"New York Botanical Garden": [40.861748, -73.880145],
+		"Washington Square Park": [40.731371, -73.996997]
+	};
+	```
 
 ## Support
 
-Drop me a line to: davcs86 [a*t] gmail [do*t] com
+Drop me line on: <http://d-castillo.info/contactme/> or to: davcs86@gmail.com
 
 ## Donations
 
