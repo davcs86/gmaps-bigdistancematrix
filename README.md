@@ -50,7 +50,9 @@ The object can display the distance matrix on a HTML table or export it as a str
 	|routePoints | Object with the GPS latitude and longitude of the places. <br>**Mandatory**.|
 	|consoleDivId | DOM id of the container where the log information will be written. <br>**Optional**. _Default value_: false. |
 	|itemsPerReq | Number of items to include per request to Google. <br>**Optional**. _Default value_: 5,  _Max Value_ 25.|
-	|$port | Listen port of the MySQL server.<br>_Optional_. It uses the value in _mysqli.default_port_ as default.|
+	|gTravelMode | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: google.maps.TravelMode.DRIVING.|
+	|gUnitSystem | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: google.maps.UnitSystem.DRIVING.|
+
 
 ## Support
 
