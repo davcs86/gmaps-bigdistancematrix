@@ -41,7 +41,7 @@ Route Optimizer for Big Distance Matrix for Google Maps: <https://github.com/dav
 	};
 	```
 
-2. Initialize the class.
+2. Initialize the object.
 
 	```javascript
 	Route_DistanceMatrix.init(routePoints, consoleDivId, itemsPerReq, gTravelMode, gUnitSystem, gAvoidHighways, gAvoidTolls);
