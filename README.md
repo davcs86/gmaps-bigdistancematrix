@@ -51,8 +51,36 @@ The object can display the distance matrix on a HTML table or export it as a str
 	|consoleDivId | DOM id of the container where the log information will be written. <br>**Optional**. _Default value_: false. |
 	|itemsPerReq | Number of items to include per request to Google. <br>**Optional**. _Default value_: 5,  _Max Value_ 25.|
 	|gTravelMode | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: google.maps.TravelMode.DRIVING.|
-	|gUnitSystem | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: google.maps.UnitSystem.DRIVING.|
+	|gUnitSystem | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: false.|
+	|gAvoidTolls | Google's parameter, view Google Maps Reference. <br>**Optional**. _Default value_: false.|
 
+	Google Maps v3 API Reference: <https://developers.google.com/maps/documentation/javascript/distancematrix#distance_matrix_requests>
+
+3. Set the table where the data will be displayed.
+
+	```javascript
+	Route_DistanceMatrix.displayTable(tableDomvId);
+
+	//from example.js	
+	Route_DistanceMatrix.displayTable("table_route_matrix");
+	```
+	| Parameter | Description |
+	| ------------- | ----------- |
+	|tableDomvId | DOM id of the table where the data will be displayed. <br>**Mandatory**.|
+
+	**NOTE:** This function is **OPTIONAL,** you can populate the distance matrix without display any data. See function _Route_DistanceMatrix.exportResults()_.
+
+4. Start the matrix population.
+
+	```javascript
+	Route_DistanceMatrix.startRouting(delayRequest);
+	
+	//from example.js
+	Route_DistanceMatrix.startRouting(5000);
+	```
+	| Parameter | Description |
+	| ------------- | ----------- |
+	|delayRequest | Miliseconds between requests. <br>**Optional**. _Default value_: 1500 ms.|
 
 ## Support
 
