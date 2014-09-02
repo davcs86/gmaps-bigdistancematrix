@@ -24,7 +24,7 @@ GMaps Big Route Optimizer: <https://github.com/davcs86/gmaps-bigrouteoptimizer>
 1. jQuery 1.8+ <http://jquery.com/>
 2. JSON3 <http://bestiejs.github.io/json3/>
 
-## Usage:
+## Instructions:
 
 1. Define an object with the GPS latitude and longitude of the route points in an Object. From example.js
 
