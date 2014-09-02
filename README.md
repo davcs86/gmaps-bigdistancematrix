@@ -22,7 +22,7 @@ The object can display the distance matrix on a HTML table or export it as a str
 
 ## Usage:
 
-1. Define the route points in an Object. From example.js
+1. Define an object with the GPS latitude and longitude of the route points in an Object. From example.js
 
 	```javascript
 	// Places in NY.
@@ -30,14 +30,27 @@ The object can display the distance matrix on a HTML table or export it as a str
 		"Times Square": [40.758673, -73.985281],
 		"St Patrick's Cathedral": [40.758196, -73.975347],
 		"Grand Central Terminal": [40.752105, -73.977686],
-		"New York Public Library": [40.752617, -73.982793], 
-		"Washington Park, NJ": [40.751890, -74.041414],
-		"Battery Park": [40.704506, -74.014206],
 		//...
+		"Bronx Zoo": [40.848611, -73.882631],
 		"New York Botanical Garden": [40.861748, -73.880145],
 		"Washington Square Park": [40.731371, -73.996997]
 	};
 	```
+
+2. Initialize the class.
+
+	```javascript
+	Route_DistanceMatrix.init(routePoints, consoleDivId, itemsPerReq, gTravelMode, gUnitSystem, gAvoidHighways, gAvoidTolls);
+
+	//from example.js	
+	Route_DistanceMatrix.init(Route_Points,"console_route_matrix", 10);
+	```
+	| Parameter | Description |
+	| ------------- | ----------- |
+	|routePoints | Object with the GPS latitude and longitude of the places. **Mandatory**.|
+	|consoleDivId | DOM id of the container where the log information will be written. __Optional__, __Default value__: false. |
+	|itemsPerReq | Number of items to include per request to Google. __Optional__, __Default value__: 5,  __Max Value__ 25.|
+	|$port | Listen port of the MySQL server.<br>_Optional_. It uses the value in _mysqli.default_port_ as default.|
 
 ## Support
 
