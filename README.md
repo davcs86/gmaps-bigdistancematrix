@@ -15,6 +15,10 @@ The object can display the distance matrix on a HTML table or export it as a str
 * **DEMO:** <http://d-castillo.info/gmaps-bigdistancematrix/example.html>
 * Other: <http://www.jsclasses.org/package/362>
 
+**Find optimal routes with the retrieved data on:**
+
+GMaps Big Route Optimizer: <https://github.com/davcs86/gmaps-bigrouteoptimizer>
+
 ## Requirements:
 
 1. jQuery 1.8+ <http://jquery.com/>
